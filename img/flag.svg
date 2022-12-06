@@ -1,0 +1,33 @@
+<svg id="Services" xmlns="http://www.w3.org/2000/svg" width="120" height="124" viewBox="0 0 120 124">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d84848;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #aa1f1f;
+      }
+
+      .cls-3 {
+        fill: #f57b71;
+      }
+
+      .cls-4 {
+        fill: #daeaf2;
+      }
+    </style>
+  </defs>
+  <g id="_1" data-name="1">
+    <g id="Flag_icon" data-name="Flag icon">
+      <path id="Shape" class="cls-1" d="M120,14H56V80h64L99.844,47Z"/>
+      <path class="cls-2" d="M56,66.749V80L73,69Z"/>
+      <path id="Shape-2" data-name="Shape" class="cls-3" d="M73,69H25L6.656,5H73V69Z"/>
+      <path class="cls-4" d="M4.436,0.18a5,5,0,0,1,6.124,3.535L41.1,117.7a5,5,0,1,1-9.659,2.588L0.9,6.3A5,5,0,0,1,4.436.18Z"/>
+    </g>
+  </g>
+</svg>

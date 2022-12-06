@@ -1,0 +1,609 @@
+*{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+}
+/* Html font size */
+html{
+          font-size: 62.5%;
+          scroll-behavior: smooth;
+          overflow: scroll;
+}
+
+/* NAV BAR */
+@media (min-width: 992px){
+          .navbar-expand-lg .navbar-nav .nav-link{
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    padding-left: 1.8rem;
+                    padding-right: 1.8rem;
+                    color: #fff;
+          }
+          .navbar-expand-lg{
+                    margin-top: 5rem;
+          }
+          .navbar-expand-lg .navbar-nav .nav-link:hover{
+                    background-color: #643a79;
+                    border-radius: 9%;
+          }
+}
+@media (max-width:992px){
+          .navbar-expand-lg .navbar-nav .nav-link{
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    padding-left: 1.8rem;
+                    padding-right: 1.8rem;
+                    color: #fff;
+                    margin-top: 1.5rem;
+          }
+          .navbar-expand-lg{
+                    margin-top: 5rem;
+          }
+          .navbar-expand-lg .navbar-nav .nav-link:hover{
+                    background-color: #643a79;
+                    
+          }
+          nav button i{
+                    font-size: 2rem;
+          }
+}
+/* sec-1 */
+
+.sec-1{
+          min-height: 59.7rem;
+          font-family: 'Titillium Web', sans-serif;
+}
+.back{
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          min-height: 59.7rem;
+          font-family: 'Titillium Web', sans-serif;
+}
+.main-c{
+          min-height: 59.7rem;
+          font-family: 'Titillium Web', sans-serif;
+}
+/* content-1 */
+.content-1{
+          margin-top: 13.5rem;
+}
+@media (max-width:770px){
+          .content-1{
+                    margin-top: 10rem;
+          }      
+}
+@media (max-width:465px){
+          .content-1{
+                    margin-top: 8rem;
+          }   
+}
+.main-content h1{
+          color: #fff;
+          text-align: center;
+          font-size: 4.2rem;
+          font-weight: 700;
+}
+.btn-1{
+          margin-top: 5rem;
+          margin-bottom: 2rem;
+          text-align: center;
+}
+.b-1{
+          width: 29.4rem;
+          height: 7rem;
+          background-color: #eb7d4b;
+          font-weight: 600;
+          font-size: 1.8rem;
+          color: #fff;
+          border: none;
+}
+/* sec-2 */
+
+.sec-2{
+          min-height: 74.5rem;
+          background-color: #17c2a4;
+          font-family: 'Titillium Web', sans-serif;
+}
+.back-2{
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          min-height: 74.5rem;
+          background-color: #17c2a4;
+}
+
+.content-2{
+          background-color: rgba(23, 194, 164, 0.8);
+          min-height: 74.5rem;
+}
+.card-title h1{
+          text-align: center;
+          margin-top: 10.9rem;
+          font-size: 4rem;
+          font-weight: 700;
+          color: #fff;
+          margin-bottom: 1rem;
+}
+.card-title img{
+          display: block;
+          margin: auto;
+}
+.card-title p{
+          font-size: 1.8rem;
+          color: #fff;
+          font-weight: 400;
+          text-align: center;
+          padding-top: 1.5rem;
+}
+.main-service{
+         margin-top: 8rem;
+}
+.ser-1 img{
+          display: block;
+          margin: auto;
+          padding-bottom: 6rem;
+}
+.ser-1 h1{
+          font-weight: 700;
+          color: #fff;
+          font-size: 2.4rem;
+          text-align: center;
+}
+.ser-1 p{
+          font-weight: 400;
+          color: #fff;
+          font-size: 1.6rem;
+          text-align: center;
+}
+
+/* team */
+
+.team{
+          font-family: 'Titillium Web', sans-serif;
+          background-color: #e7f1f8;
+          min-height: 91.6rem;
+}
+.back-3{
+          min-height: 91.6rem;
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+.main-team{
+          background-color: rgba(231, 241, 248, 0.8);
+          min-height: 91.6rem;
+          
+}
+.team-1 h1{
+          font-size: 4.1rem;
+          font-weight: 700;
+          text-align: center;
+          color: #3c4761;
+          margin-top: 11.7rem;
+          margin-bottom: 1.5rem;
+}
+.team-1 img{
+          display: block;
+          margin: auto;
+}
+.team-2 p{
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #3c4761;
+          text-align: center;
+          margin-top: 2rem;
+}
+.member-1{
+          margin-top: 7.5rem;
+}
+.member-1 img{
+          display: block;
+          margin: auto;
+}
+.member-1 h1{
+          font-size: 2.4rem;
+          font-weight: 700;
+          color: #3c4761;
+          text-align: center;
+          padding-top: 3.7rem;
+}
+.member-1 h2{
+          font-size: 1.6rem;
+          font-weight: 400;
+          color: #30bae7;
+          text-align: center;
+          padding-top: 1.5rem;
+}
+.member-1 p{
+          font-size: 1.6rem;
+          font-weight: 300;
+          color: #3c4761;
+          text-align: center;
+          padding-top: 2rem;
+}
+.member-1 .icons{
+          text-align: center;
+}
+.member-1 .icons a{
+         display: inline-block;
+         margin: auto;
+         color:#3c4761;
+         font-size: 2.5rem;
+         padding: 1rem;
+}
+/* skills */
+.skills{
+          min-height: 67rem;
+          font-family: 'Titillium Web', sans-serif;
+          background-color: #ffffff;
+}
+.back-4{
+          min-height: 67rem;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+}
+.main-skills{
+          min-height: 67rem;
+          background-color: rgba(255, 255, 255, 0.7);
+          
+}
+.skill-1 h1{
+          font-size: 4rem;
+          font-weight: 700;
+          color: #3c4761;
+          text-align: center;
+          margin-top: 11.2rem;
+          margin-bottom: 1.5rem;
+}
+.skill-1 img{
+          display: block;
+          margin: auto;
+}
+.skill-2 p{
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #3c4761;
+          text-align: center;
+          margin-top: 2rem;
+}
+.skill-3 h2{
+          font-size: 2.4rem;
+          font-weight: 700;
+          color: #3c4761;
+          text-align: center;
+          padding-top: 2.5rem;
+}
+.skill-3 .circlechart{
+          text-align: center;
+}
+.percentage{
+          margin-top: 8rem;
+}
+@media (max-width:1199px){
+          .skill-3{
+                    padding-bottom: 3rem;
+          }
+}
+
+/* protifolio */
+
+.protfolio{
+          min-height: 142.5rem;
+          background-color: #ffdd99;
+          font-family: 'Titillium Web', sans-serif;
+}
+.back-5{
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          min-height: 142.5rem;
+          background-color: #ffdd99;
+}
+.main-prot{
+          background-color: rgba(255, 221, 153, 0.7);
+          min-height: 142.5rem;
+}
+.prot-title h2{
+          font-weight: 700;
+          font-size: 4rem;
+          color: #3c4761;
+          text-align: center;
+          margin-top: 11.5rem;
+          padding-bottom: 2rem;
+}
+.prot-title img{
+          display: block;
+          margin: auto;
+}
+.prot-title p{
+          font-weight: 400;
+          font-size: 1.8rem;
+          color: #3c4761;
+          text-align: center;
+          padding-top: 2rem;
+}
+
+/*  */
+
+.img-1 img{
+          display: block;
+          margin: auto;
+          padding-bottom: 2rem;
+          max-width: 100%;
+          min-width: 100%;
+          object-fit: cover;
+          min-height: 100%;
+}
+.img-1 h2{
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #3c4761;
+          text-align: center;
+          padding-bottom: 6rem;
+}
+.box-menu{
+          text-align: center;
+}
+.box-menu ul{
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          margin-top: 3.5rem;
+          margin-bottom: 8rem;
+}
+.box-menu ul li{
+          font-weight: 400;
+          font-size: 18px;
+          display: inline-block;
+          padding: 0.5rem 2.5rem;
+          background-color: #ccab6a;
+          margin-right: 1.5rem;
+}
+.box-menu ul li:hover{
+          background-color: #fff;
+          color: #000;
+}
+.b-5{
+          text-align: center;
+          margin-bottom: 5rem;
+}
+.b-5 button{
+          min-width: 29.2rem;
+          min-height: 7rem;
+          background-color: #17c2a4;
+          font-size: 1.8rem;
+          font-weight: 600;
+          color: #fff;
+          border: none;
+}
+@media (max-width:450px){
+          .box-menu ul li{
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 0.5rem 1.5rem;
+          }  
+}
+
+/* say */
+
+.say{
+          min-height: 89.5rem;
+          background-color: #d74680;
+          font-family: 'Titillium Web', sans-serif;
+}
+.back-6{
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-color: #d74680;
+          min-height: 89.5rem;
+}
+.main-say{
+          background-color: rgba(215, 70, 128, 0.8);
+          min-height: 89.5rem;
+}
+.say-title h1{
+          font-weight: 700;
+          font-size: 4rem;
+          color: #fff;
+          text-align: center;
+          padding-top: 10rem;
+          padding-bottom: 1.5rem;
+}
+.say-title img{
+          display: block;
+          margin: auto;
+}
+.say-title p{
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #fff;
+          text-align: center;
+          padding-top: 2rem;
+}
+.clients{
+          margin-top: 6rem;
+}
+.about-ct{
+          display: flex;
+          padding-top: 5rem;
+          padding-left: 3rem;
+          padding-bottom: 5rem;
+}
+.content-ct{
+          margin-left: 4rem;
+          margin-top: 2rem;
+}
+.content-ct .ct-p{
+          font-size: 2.1rem;
+          font-weight: 500;
+          font-style: italic;
+          color: #fff;
+          padding-right: 10rem;
+          padding-bottom: 1.5rem;
+}
+.content-ct .ct-h1{
+          font-size: 2.4rem;
+          font-weight: 700;
+          color: #fff;
+}
+.content-ct h3{
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #ffdd99;
+}
+@media (max-width:480px){
+          .content-ct .ct-p{
+                    padding-right: 5rem;
+          }
+         .content-ct{
+                    margin-left: 1.5rem;
+                   
+          };
+}
+
+/* contacts */
+
+.contacts{
+          font-family: 'Titillium Web', sans-serif;
+          background-color: #3c5499;
+          min-height: 82.5rem;
+}
+.back-7{
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 82.5rem;
+}
+.main-contacts{
+          background-color: rgba(60, 84, 153, 0.8);
+          min-height: 82.5rem;
+}
+.contacts-title h1{
+          font-weight: 700;
+          font-size: 4rem;
+          text-align: center;
+          color: #fff;
+          padding-top: 10rem;
+}
+.contacts-title img{
+          display: block;
+          margin: auto;
+          padding-top: 1.5rem;
+}
+.contacts-title p{
+          font-weight: 400;
+          font-size: 1.8rem;
+          text-align: center;
+          color: #fff;
+          padding-top: 1.5rem;
+}
+.form{
+          margin-top: 6rem;
+}
+.name input[type=text],
+.name input[type=email],
+.area textarea{
+          min-width: 100%;
+          padding: 2rem ;
+          background-color: #273a71;
+          border: 0.1rem solid #273a71;
+          padding-left: 3rem;
+          font-size: 1.8rem;
+          font-weight: 400;
+          color: #ffffff;
+          border-radius: 0.7rem;
+          margin-bottom: 3rem;
+          outline: #273a71;
+}
+.name input[type=text]:focus{
+          box-shadow: 0.5rem 0.5rem #273a71;
+}
+.name input[type=email]:focus{
+          box-shadow: 0.5rem 0.5rem #273a71;
+}
+.area textarea:focus{
+          box-shadow: 0.5rem 0.5rem #273a71 ;
+}
+.submit{
+          text-align: center;
+          margin-top: 2rem;
+          margin-bottom: 8rem;
+}
+.submit input{
+          min-width: 29rem;
+          min-height: 7rem;
+          background-color: #30bae7;
+          border: 0.5rem solid #30bae7;
+          font-size: 1.8rem;
+          font-weight: 600;
+          color: #fff;
+          border-radius: 0.7rem;
+}
+/* footer */
+.footer{
+          background-color: #344b8e;
+          min-height: 11.3rem;
+          font-family: 'Titillium Web', sans-serif;
+}
+.back-8{
+          background-position: center;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-color: #344b8e;
+          min-height: 11.3rem;
+}
+.main-footer{
+          background-color: rgba(52, 75, 142, 0.8);
+          min-height: 11.3rem;
+}
+.fot-0{
+       min-width: 100%;
+}
+.fot-0 ul{
+       margin-top: 4rem;  
+       text-align: center;
+}
+.fot-0 ul li{
+          display: inline-block;
+          list-style: none; 
+}
+.fot-0 ul li a{
+       text-decoration: none;
+       font-size: 2.4rem;
+       font-weight: 600;
+       color: #fff;
+       padding: 0rem 3rem;
+}
+@media (max-width:1199px){
+       .fot-0 ul li a{
+              font-size: 2.2rem;
+              padding: 0 2rem;
+       }  
+}
+@media (max-width:992px){
+       .fot-0 ul li a{
+              padding: 3rem 1rem 0 1rem;
+              font-size: 2rem;
+       }
+}
+@media (max-width:768px){
+       .fot-0 ul li a{
+              font-size: 1.6rem;
+       }
+}
+@media (max-width:550px){
+       .fot-0 ul{
+              padding-left: 0rem;
+       }
+}
